@@ -1,6 +1,7 @@
 function shortcut(s1, s2) {
 	if (!s1 || !s2) return "";
-  return s1[0].toUpperCase() + s2[0].toUpperCase()
+  let varOcg = s1[0] + s2[0];
+  return varOcg.toLowerCase();
 }
 
 // Do not change the code below.
