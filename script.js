@@ -1,7 +1,7 @@
 function shortcut(s1, s2) {
 	if (!s1 || !s2) return "";
   let varOcg = s1[0] + s2[0];
-  return varOcg.toLowerCase();
+  return varOcg;
 }
 
 // Do not change the code below.
